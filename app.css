@@ -19151,7 +19151,16 @@ img{
 .style-page .page-content{
     padding-top: 0px !important;
 }
-
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ccc !important;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc !important;
+}
 
 
 .item-input-wrap input[data-v-e025b570]{
@@ -19161,6 +19170,7 @@ img{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 
 .align-items-center{

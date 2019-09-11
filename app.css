@@ -19053,7 +19053,7 @@ img{
 }
 .demo-swiper .swiper-slide {
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd !important;
     background: #fff;
 }
 .demo-swiper {

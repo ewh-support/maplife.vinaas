@@ -19148,9 +19148,6 @@ img{
 .style-ul{
     background: #000000cf !important;
 }
-.style-page .page-content{
-    padding-top: 0px !important;
-}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #ccc !important;
     opacity: 1; /* Firefox */
@@ -19164,13 +19161,15 @@ img{
 
 
 .item-input-wrap input[data-v-e025b570]{
-    color: #fff;
+     color: #fff;
 }
 .item-inner[data-v-e025b570]{
-    padding-top: 15px;
-    padding-bottom: 15px;
+     padding-top: 15px;
+     padding-bottom: 15px;
 }
-
+.page-content[data-v-e025b570]{
+     padding-top: 0px !important;
+}
 
 
 .align-items-center{

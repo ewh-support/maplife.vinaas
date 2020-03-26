@@ -21812,6 +21812,48 @@ iframe#viAd {
 .fa-address-card:before {
     content: "\F2BB";
 }
+.fa-birthday-cake:before {
+    content: "\F1FD";
+}
+.fa-diamond:before {
+    content: "\F219";
+}
+.fa-language:before {
+    content: "\F1AB";
+}
+.fa-shield:before {
+    content: "\F132";
+}
+.fa-info-circle:before {
+    content: "\F05A";
+}
+.fa-sign-out:before {
+    content: "\F08B";
+}
+.fa-life-ring:before {
+    content: "\F1CD";
+}
+.fa-credit-card-alt:before {
+    content: "\F283";
+}
+.fa-pencil-square:before {
+    content: "\F14B";
+}
+.fa-unlock-alt:before {
+    content: "\F13E";
+}
+.fa-mars:before {
+    content: "\F222";
+}
+.fa-edit:before, .fa-pencil-square-o:before {
+    content: "\F044";
+}
+.fa-comments:before {
+    content: "\F086";
+}
+.fa-gear:before, .fa-cog:before {
+    content: "\F013";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -22364,22 +22406,95 @@ img{
 .style-after::before{
     position: absolute;
     content: "";
-    height: 55px;
+    height: 56px;
     background: #fff;
     width: 100%;
     bottom: 0;
 }
-.style-switching .toolbar-inner{
-    max-width: 250px;
-    margin: 0 auto;
-    left: 0;
+.discount-fs-item-card__badge-wrapper.discount-fs-item-card__badge-wrapper {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    padding: 7px 8px;
+    font-weight: 400;
+    position: absolute;
+    top: -2px;
     right: 0;
-    align-items: flex-start;
+    z-index: 3;
 }
-.sheet-backdrop.backdrop-in{
-    background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(36,35,35,0.8939950980392157) 100%);
-    filter: blur(0.5px);
-    -webkit-filter: blur(0.5px);
+.discount-badge--promotion {
+    background-color: rgba(255,212,36,.9);
+}
+.discount-badge--fixed-width {
+    width: 38px;
+    height: 35px;
+}
+.discount-badge {
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    padding: 4px 2px 3px;
+    border-top-right-radius: 3px;
+}
+.discount-badge--promotion__label-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    line-height: 12px;
+    color: #ee4d2d;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+.discount-badge--promotion__label-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    line-height: 12px;
+    color: #ee4d2d;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+.discount-badge--promotion__label-wrapper__off-label {
+    color: #fff;
+    margin: 2px 0;
+}
+.discount-badge--promotion:after {
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: -7px;
+    position: absolute;
+    border-color: transparent rgba(255,212,36,.9);
+    border-style: solid;
+    border-width: 0 19px 8px;
+}
+.actions-button-text{
+    height: auto !important;
 }
 
 .logo-bia[data-v-9e2d7016]{
@@ -22481,6 +22596,28 @@ img{
     height: 100%;
 } */
 .demo-swiper2 .swiper-slide[data-v-152bf202] {
+    background: #fff;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* .swiper-container {
+    width: 100%;
+    height: 100%;
+} */
+.demo-swiper2 .swiper-slide[data-v-6c992f57] {
     background: #fff;
     width: 40%;
     display: -webkit-box;

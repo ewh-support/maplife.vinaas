@@ -21184,6 +21184,15 @@ iframe#viAd {
 }
 
 @font-face {
+    font-family: 'opensans-semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/opensans-semibold.4d41211.woff2) format('woff2');
+    src: local('opensans-semibold'),
+        url(fonts/opensans-semibold.4d41211.woff2) format('woff2'),
+        url(fonts/opensans-semibold.b46733c.ttf) format('truetype'),
+}
+@font-face {
     font-family: 'OpenSans-Regular';
     font-style: normal;
     font-weight: normal;
@@ -21192,7 +21201,6 @@ iframe#viAd {
         url(fonts/OpenSans-Regular.5583548.woff2) format('woff2'),
         url(fonts/OpenSans-Regular.ac327c4.woff) format('woff'),
 }
-
 @font-face {
     font-family: 'Montserrat-Bold';
     font-style: normal;
@@ -21854,6 +21862,9 @@ iframe#viAd {
 .fa-gear:before, .fa-cog:before {
     content: "\F013";
 }
+.fa-angle-double-right:before {
+    content: "\F101";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -21996,10 +22007,16 @@ img{
     font-family: 'OpenSans-Regular' !important;
 }
 .fs-OpenSans-Bold{
-    /* font-family: 'OpenSans-Bold'; */
+    font-family: 'OpenSans-Bold' !important;
+}
+.fs-opensans-semibold{
+    font-family: 'opensans-semibold';
 }
 .fs-17{
     font-size: 17px !important;
+}
+.fs-16{
+    font-size: 16px !important;
 }
 .fs-15{
     font-size: 15px !important;
@@ -22012,6 +22029,9 @@ img{
 }
 .fs-12{
     font-size: 12px !important;
+}
+.fs-11{
+    font-size: 11px !important;
 }
 .fs-10{
     font-size: 10px !important;
@@ -22087,7 +22107,6 @@ img{
 }
 .swiper-slide{
     margin-top: 0px !important;
-    margin-bottom: 10px;
 }
 .swiper-pagination-bullet-active {
     background: #ff3b30 !important;
@@ -22407,7 +22426,7 @@ img{
     position: absolute;
     content: "";
     height: 56px;
-    background: #fff;
+    background-color: #00427a;
     width: 100%;
     bottom: 0;
 }
@@ -22496,6 +22515,48 @@ img{
 .actions-button-text{
     height: auto !important;
 }
+.style-after-mask{
+    position: relative;
+}
+.style-after-mask::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 100px;
+    background: #f7941e;
+    border-radius: 50%;
+    left: -72px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    margin-left: 0;
+}
+.style-after-mask-info{
+    position: relative;
+}
+.style-after-mask-info::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 100px;
+    background: #c61c57;
+    border-radius: 50%;
+    left: -72px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    margin-left: 0;
+}
+.tabbar a, .tabbar-labels a {
+    color: #fff;
+}
+.ios-translucent-bars .toolbar {
+    background-color: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
 
 .logo-bia[data-v-9e2d7016]{
     position: absolute;
@@ -22574,8 +22635,24 @@ img{
     height: 100%;
 } */
 .demo-swiper2 .swiper-slide[data-v-56b687e3] {
-    background: #fff;
+    background: transparent;
     width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.demo-swiper3 .swiper-slide[data-v-56b687e3] {
+    background: #fff;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;

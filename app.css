@@ -21865,6 +21865,9 @@ iframe#viAd {
 .fa-angle-double-right:before {
     content: "\F101";
 }
+.fa-caret-down:before {
+    content: "\F0D7";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -22012,6 +22015,9 @@ img{
 .fs-opensans-semibold{
     font-family: 'opensans-semibold';
 }
+.fs-18{
+    font-size: 18px !important;
+}
 .fs-17{
     font-size: 17px !important;
 }
@@ -22109,7 +22115,10 @@ img{
     margin-top: 0px !important;
 }
 .swiper-pagination-bullet-active {
-    background: #ff3b30 !important;
+    background: #fff !important;
+}
+.swiper-pagination-bullet{
+    background: #fff !important;
 }
 .popup.modal-in {
     transform: translate3d(0,0,0);
@@ -22170,9 +22179,6 @@ img{
 .popover-inner .item-title{
     font-family: 'Roboto-Light' !important;
     font-size: 15px !important;
-}
-.navbar-bg{
-    background-color: #ff3b30 !important;
 }
 .navbar .subnavbar{
     top: 48px !important;
@@ -22556,6 +22562,9 @@ img{
     background-color: none;
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
+}
+.smart-select .item-after {
+    max-width: 100%;
 }
 
 .logo-bia[data-v-9e2d7016]{

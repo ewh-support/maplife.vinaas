@@ -22436,88 +22436,6 @@ img{
     width: 100%;
     bottom: 0;
 }
-.discount-fs-item-card__badge-wrapper.discount-fs-item-card__badge-wrapper {
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
-    padding: 7px 8px;
-    font-weight: 400;
-    position: absolute;
-    top: -2px;
-    right: 0;
-    z-index: 3;
-}
-.discount-badge--promotion {
-    background-color: rgba(255,212,36,.9);
-}
-.discount-badge--fixed-width {
-    width: 38px;
-    height: 35px;
-}
-.discount-badge {
-    display: inline-block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
-    padding: 4px 2px 3px;
-    border-top-right-radius: 3px;
-}
-.discount-badge--promotion__label-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    font-weight: 700;
-    line-height: 12px;
-    color: #ee4d2d;
-    text-transform: uppercase;
-    font-size: .75rem;
-}
-.discount-badge--promotion__label-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    font-weight: 700;
-    line-height: 12px;
-    color: #ee4d2d;
-    text-transform: uppercase;
-    font-size: .75rem;
-}
-.discount-badge--promotion__label-wrapper__off-label {
-    color: #fff;
-    margin: 2px 0;
-}
-.discount-badge--promotion:after {
-    content: "";
-    width: 0;
-    height: 0;
-    left: 0;
-    bottom: -7px;
-    position: absolute;
-    border-color: transparent rgba(255,212,36,.9);
-    border-style: solid;
-    border-width: 0 19px 8px;
-}
 .actions-button-text{
     height: auto !important;
 }
@@ -22565,6 +22483,18 @@ img{
 }
 .smart-select .item-after {
     max-width: 100%;
+}
+.limit-text {
+    display: block;
+    display: -webkit-box;
+    max-height: 72px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.no-highlight .item-input-wrap:after{
+    height: 0 !important;
 }
 
 .logo-bia[data-v-9e2d7016]{

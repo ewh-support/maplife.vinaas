@@ -22505,6 +22505,10 @@ img{
     height: 0 !important;
     content: none !important;
 }
+li.item-divider:before, .item-divider:before {
+    height: 0 !important;
+    content: none !important;
+}
 
 .logo-bia[data-v-9e2d7016]{
     position: absolute;

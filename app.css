@@ -22493,8 +22493,17 @@ img{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.no-highlight .item-input-wrap:after{
+.no-highlight .item-input:not(.item-input-outline) .item-input-wrap:after, .md .input:not(.input-outline):after{
     height: 0 !important;
+    content: none !important;
+}
+.list.no-highlight ul:after {
+    height: 0 !important;
+    content: none !important;
+}
+.list.no-highlight ul:before {
+    height: 0 !important;
+    content: none !important;
 }
 
 .logo-bia[data-v-9e2d7016]{

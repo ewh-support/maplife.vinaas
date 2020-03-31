@@ -22431,7 +22431,7 @@ img{
 .style-after::before{
     position: absolute;
     content: "";
-    height: 56px;
+    height: 61px;
     background-color: #00427a;
     width: 100%;
     bottom: 0;
@@ -22603,7 +22603,7 @@ li.item-divider:before, .item-divider:before {
     align-items: center;
 }
 .demo-swiper3 .swiper-slide[data-v-56b687e3] {
-    background: #fff;
+    background: transparent;
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;

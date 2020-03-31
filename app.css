@@ -22624,9 +22624,25 @@ li.item-divider:before, .item-divider:before {
     width: 100%;
     height: 100%;
 } */
-.demo-swiper2 .swiper-slide[data-v-152bf202] {
-    background: #fff;
+.demo-swiper2 .swiper-slide[data-v-6c992f57] {
+    background: transparent;
     width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.demo-swiper3 .swiper-slide[data-v-6c992f57] {
+    background: transparent;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -22646,9 +22662,63 @@ li.item-divider:before, .item-divider:before {
     width: 100%;
     height: 100%;
 } */
-.demo-swiper2 .swiper-slide[data-v-6c992f57] {
-    background: #fff;
+.demo-swiper2 .swiper-slide[data-v-c3eac4dc] {
+    background: transparent;
     width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.demo-swiper3 .swiper-slide[data-v-c3eac4dc] {
+    background: transparent;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* .swiper-container {
+    width: 100%;
+    height: 100%;
+} */
+.demo-swiper2 .swiper-slide[data-v-52dc66fa] {
+    background: transparent;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.demo-swiper3 .swiper-slide[data-v-52dc66fa] {
+    background: transparent;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;

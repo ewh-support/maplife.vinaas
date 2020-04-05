@@ -22515,6 +22515,9 @@ li.item-divider:before, .item-divider:before {
 .style-line-swip .swiper-slide{
    padding-right: 20px;
 }
+.style-line-swip .swiper-slide:last-child{
+    padding-right: 0px;
+ }
 .style-line-swip > .swiper-slide:after{
     position: absolute;
     content: "";
@@ -22626,7 +22629,7 @@ li.item-divider:before, .item-divider:before {
 }
 .demo-swiper3 .swiper-slide[data-v-56b687e3] {
     background: transparent;
-    width: 90%;
+    width: 83%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;

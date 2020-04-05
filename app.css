@@ -22512,6 +22512,25 @@ li.item-divider:before, .item-divider:before {
 .sheet-backdrop {
     background: rgba(0, 35, 68, 0.92);
 }
+.style-line-swip .swiper-slide{
+   padding-right: 20px;
+}
+.style-line-swip > .swiper-slide:after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #f7941e;
+    right: -6px;
+}
+.style-line-swip > .swiper-slide:last-child:after{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 1px;
+    background: #f7941e;
+    right: -6px;
+}
 
 .logo-bia[data-v-9e2d7016]{
     position: absolute;
@@ -22624,6 +22643,22 @@ li.item-divider:before, .item-divider:before {
 .demo-swiper4 .swiper-slide[data-v-56b687e3] {
     background: transparent;
     width: 22%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.demo-swiper5 .swiper-slide[data-v-56b687e3] {
+    background: transparent;
+    width: 24%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;

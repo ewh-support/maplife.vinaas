@@ -22431,7 +22431,7 @@ img{
 .style-after::before{
     position: absolute;
     content: "";
-    height: 61px;
+    height: 63px;
     background-color: #00427a;
     width: 100%;
     bottom: 0;
@@ -22508,6 +22508,9 @@ img{
 li.item-divider:before, .item-divider:before {
     height: 0 !important;
     content: none !important;
+}
+.sheet-backdrop {
+    background: rgba(0, 35, 68, 0.92);
 }
 
 .logo-bia[data-v-9e2d7016]{
@@ -22618,6 +22621,26 @@ li.item-divider:before, .item-divider:before {
     -webkit-align-items: center;
     align-items: center;
 }
+.demo-swiper4 .swiper-slide[data-v-56b687e3] {
+    background: transparent;
+    width: 22%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.activeSheet[data-v-56b687e3] {
+    filter: blur(5px);
+    transition-duration: 100ms;
+}
 
 
 /* .swiper-container {
@@ -22655,6 +22678,10 @@ li.item-divider:before, .item-divider:before {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+}
+.activeSheet[data-v-6c992f57]{
+    filter: blur(5px);
+    transition-duration: 100ms;
 }
 
 

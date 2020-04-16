@@ -21868,6 +21868,12 @@ iframe#viAd {
 .fa-caret-down:before {
     content: "\F0D7";
 }
+.fa-hand-o-right:before {
+    content: "\F0A4";
+}
+.fa-calendar-o:before {
+    content: "\F133";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -22431,7 +22437,7 @@ img{
 .style-after::before{
     position: absolute;
     content: "";
-    height: 63px;
+    height: 64px;
     background-color: #00427a;
     width: 100%;
     bottom: 0;
@@ -22515,24 +22521,33 @@ li.item-divider:before, .item-divider:before {
 .style-line-swip .swiper-slide{
    padding-right: 20px;
 }
+.style-line-swip>.row>[class*="col-"]{
+    position: relative;
+ }
 .style-line-swip .swiper-slide:last-child{
     padding-right: 0px;
  }
-.style-line-swip > .swiper-slide:after{
+.style-line-swip >.row>[class*="col-"]:after{
     position: absolute;
     content: "";
-    width: 80px;
+    width: 100px;
     height: 1px;
     background: #f7941e;
-    right: -6px;
+    top: 50%;
 }
-.style-line-swip > .swiper-slide:last-child:after{
+.style-line-swip>.row>[class*="col-"]:last-child:after{
     position: absolute;
     content: "";
     width: 0px;
     height: 1px;
     background: #f7941e;
-    right: -6px;
+}
+.style-inner .toolbar-inner{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.list.style-list .item-link .item-inner:before{
+    color: #fff !important;
 }
 
 .logo-bia[data-v-9e2d7016]{
@@ -22645,7 +22660,7 @@ li.item-divider:before, .item-divider:before {
 }
 .demo-swiper4 .swiper-slide[data-v-56b687e3] {
     background: transparent;
-    width: 22%;
+    width: 25%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -22685,7 +22700,7 @@ li.item-divider:before, .item-divider:before {
     width: 100%;
     height: 100%;
 } */
-.demo-swiper2 .swiper-slide[data-v-6c992f57] {
+.demo-swiper2 .swiper-slide[data-v-7c8e05f3] {
     background: transparent;
     width: 40%;
     display: -webkit-box;
@@ -22701,7 +22716,7 @@ li.item-divider:before, .item-divider:before {
     -webkit-align-items: center;
     align-items: center;
 }
-.demo-swiper3 .swiper-slide[data-v-6c992f57] {
+.demo-swiper3 .swiper-slide[data-v-7c8e05f3] {
     background: transparent;
     width: 90%;
     display: -webkit-box;
@@ -22717,7 +22732,7 @@ li.item-divider:before, .item-divider:before {
     -webkit-align-items: center;
     align-items: center;
 }
-.activeSheet[data-v-6c992f57]{
+.activeSheet[data-v-7c8e05f3]{
     filter: blur(5px);
     transition-duration: 100ms;
 }

@@ -21874,6 +21874,9 @@ iframe#viAd {
 .fa-calendar-o:before {
     content: "\F133";
 }
+.fa-eye:before {
+    content: "\F06E";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -22548,6 +22551,13 @@ li.item-divider:before, .item-divider:before {
 }
 .list.style-list .item-link .item-inner:before{
     color: #fff !important;
+}
+.tab-active-style.tab-link-active{
+    border-bottom: 3px solid #f7941e !important;
+}
+.style-line-input .item-input:not(.item-input-outline) .item-input-wrap:after{
+    background-color: #fff !important;
+    height: 1px;
 }
 
 .logo-bia[data-v-9e2d7016]{

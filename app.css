@@ -22530,6 +22530,9 @@ li.item-divider:before, .item-divider:before {
 .sheet-backdrop {
     background: rgba(0, 35, 68, 0.92);
 }
+.modal-vue-panel.modal-slide-right.modal-vue-show {
+    background-color: #fff !important;
+}
 .style-line-swip .swiper-slide{
    padding-right: 20px;
 }
@@ -22752,6 +22755,7 @@ li.item-divider:before, .item-divider:before {
     -webkit-align-items: center;
     align-items: center;
 }
+
 /* .activeSheet {
     filter: blur(5px);
     transition-duration: 10ms;

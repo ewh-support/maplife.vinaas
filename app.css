@@ -21877,6 +21877,9 @@ iframe#viAd {
 .fa-eye:before {
     content: "\F06E";
 }
+.fa-check-circle:before {
+    content: "\F058";
+}
 /* Your app styles here */
 ::-webkit-scrollbar {
     display: none;
@@ -22573,20 +22576,18 @@ li.item-divider:before, .item-divider:before {
 }
 .point{
     display: block;
-    border-radius: 50%;
     height: 24px;
     width: 24px;
     line-height: 24px;
     margin: 0 auto;
-    border: 1px solid #ccc;
     color: #000;
 }
-.point_active{
+/* .point_active{
     color: #fff;
     background-color: #003f7e;
     border-color: #003f7e;
 
-}
+} */
 .line-dot{
     position: relative;
 }

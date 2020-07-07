@@ -23249,6 +23249,17 @@ textarea{
     right: 0;
 }
 
+.style-inner-img-partner{
+    padding-top: 151%;
+}
+
+.style-height-img-partner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
 
 .title {
     color: #fff;

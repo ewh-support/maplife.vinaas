@@ -23226,8 +23226,28 @@ textarea{
 .style-segmented .tab-link-active{
     background-color: #fff !important;
 }
+.style-inner-img-new{
+    padding-top: 56%;
+}
 
+.style-height-img-ratio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.style-inner-img-articels{
+    padding-top: 100%;
+}
 
+.style-height-img-articels{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
 
 
 .title {

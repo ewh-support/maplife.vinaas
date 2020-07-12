@@ -23260,6 +23260,22 @@ textarea{
     bottom: 0;
     right: 0;
 }
+.res-img img{
+    width: 100% !important;
+    height: auto !important;
+}
+.bg-style-tab-active span{
+    color: #000;
+}
+.bg-style-tab-active.tab-link-active, .bg-style-tab-active.tab-link-active span{
+    background-color: #003f7e !important;
+    color: #fff;
+}
+.bg-style-tab-active img{
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px var(--f7-treeview-icon-color);
+}
+
 
 .title {
     color: #fff;

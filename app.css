@@ -22278,19 +22278,24 @@ img{
 .style-list-radio .list label.item-radio input[type="radio"] ~ .icon-radio {
     position: absolute;
     top: 50%;
-    margin-top: -9px;
-    right: calc(var(--f7-safe-area-right) + 10px);
-    border: 0;
-
+    left: 0;
 }
 .style-list-radio .list .icon-radio:after {
     opacity: 0;
     font-family: 'framework7-core-icons';
     font-size: 20px;
+    display: inline-table;
+    margin-top: -0.22em !important;
+    margin-left: -0.21em !important;
+
+}
+.style-only-textarea div.item-input-outline:first-child{
+    margin-top: 20px
 }
 .style-list-radio .icon-radio{
-    position: absolute;
+    position: relative !important;
     right: 15px;
+    margin: 0 !important;
 }
 .style-list-radio .list label.item-radio input[type="radio"]:checked ~ .icon-radio:after, .ios label.item-radio input[type="radio"]:checked ~ * .icon-radio:after, .ios .radio input[type="radio"]:checked ~ .icon-radio:after {
     opacity: 1;
